@@ -39,13 +39,16 @@ def find_dir(URL, path_entrada):
 
                 if response.status_code == 200 :
                     save_output(path_saida, site, mensagem="URL válida: ")
-                else :
-                    save_output (path_URL_testadas, site, mensagem="URL inválida:" )
+                if response.status_code <=399 and response.status_code >= 599 :
+                    save_output (path_URL_testadas, site, mensagem="Urls que não retornaram erro de sevidor ou usuário : " )
+
             except ConnectionError as ce:
                 print(f"Erro de conexão: {ce}")
-            except Exception as e:
+            except KeyboardInterrupt as e:
+                sys.exit(0)
                 print(f"Erro: {e}")
 
+    print('Busca finalizada, para mais detalhes, abra o arquivo 200.txt')
 
 if __name__ == '__main__':
     url = sys.argv[1]
