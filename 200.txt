@@ -1,5 +1,4 @@
-URL válida:  http://bancocn.com/admin
-URL válida:  http://bancocn.com/assets
-URL válida:  http://bancocn.com/classes
-URL válida:  http://bancocn.com/css
-URL válida:  http://bancocn.com/images
+ http://bancocn.com/admin
+ http://bancocn.com/admin
+ http://bancocn.com/assets
+ http://bancocn.com/assets
