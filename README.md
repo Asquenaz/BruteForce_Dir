@@ -1,5 +1,5 @@
 O projeto faz parte de estudos da área de cibersegurança, não nos responsabilizamos com o mau uso da ferramenta. Caso utilizado para fazer brute force com a finalidade de realizar ataques cibernéticos, 
-lembre-se, isso é crime. Pelo menos faça com o bash passando pela rede tor (proxuchains), mas eu não disse isso :)
+lembre-se, isso é crime. Pelo menos faça com o bash passando pela rede tor (proxychains), mas eu não disse isso :)
 
 
 Utilize  python >=3 para rodar o script
@@ -16,8 +16,9 @@ Existe um método em contrução que testa subdominio. Ele está comentado, o m�
  Certifique-se de que todos os arquivos estão no formato UTF 8.
 
 #Lembre-se : 
-      #Com grandes poderes, vem sempre grandes responsabilidades.
-      #Contribua com o mundo da ciberseguranca.
+
+      ##Com grandes poderes, vem sempre grandes responsabilidades.
+      ##Contribua com o mundo da ciberseguranca.
 
 Projeto ainda em desenvolvimente. 
 
